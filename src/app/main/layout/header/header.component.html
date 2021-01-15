@@ -1,0 +1,29 @@
+
+    <header>
+        <nav class="header__main">
+            <img src="./assets/img/logo.png">
+            <div class="menu-header">
+                <a href="#tn"style="text-decoration:none; color: black;"> {{ lang.menu_1 }}</a>
+                <a href="">{{ lang.menu_2 }}</a>
+                <a href="">{{ lang.menu_3 }}</a>
+                <a href="">{{ lang.menu_4 }}</a>
+            </div>
+            <button class="btn-white">
+                {{ lang.login }}
+            </button>
+            <button class="btn-blue"><a href="#dk" style="text-decoration:none; color: #ffffff;">
+                {{ lang.register }}
+            </a></button>
+            <div class="lang-btn">
+                <button class="vi" (click)="changeLanguage(0)">
+                    V
+                </button>
+                <button class="en" (click)="changeLanguage(1)">
+                    E
+                </button>
+            </div>
+            <div class="btn-header-mobile">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>

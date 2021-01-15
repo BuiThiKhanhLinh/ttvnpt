@@ -1,0 +1,217 @@
+<main>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <div class="img-btn">
+                <img src="./assets/img/sl1.png" style="width:100%">
+                <button class="text"><a href="#dk" style="text-decoration:none; color: #ffffff;">{{ lang.register
+                        }}</a></button>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <div class="img-btn">
+                <img src="./assets/img/sl2.png" style="width:100%">
+                <button class="text"><a href="#dk" style="text-decoration:none; color: #ffffff;">{{ lang.register
+                        }}</a></button>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <div class="img-btn">
+                <img src="./assets/img/sl3.png" style="width:100%">
+                <button class="text"><a href="#dk" style="text-decoration:none; color: #ffffff;">{{ lang.register
+                        }}</a></button>
+            </div>
+        </div>
+        <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+        <a class="next" (click)="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" (click)="currentSlide(1)"></span>
+        <span class="dot" (click)="currentSlide(2)"></span>
+        <span class="dot" (click)="currentSlide(3)"></span>
+    </div>
+    <p class="title">{{ lang.title_1 }}</p>
+    <p class="normal-text">{{ lang.content_1 }}</p>
+    <div class="content-main">
+        <div class="title mgb-30"><a id="tn">{{ lang.title_2 }}</a></div>
+        <div class="row">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/img1.png">
+                </div>
+                <div class="col-md-6">
+                    <div class="content-img">
+                        <p class="title-mini">
+                            {{ lang.title_3 }}
+                        </p><span>{{ lang.text_1}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content-img">
+                        <p class="title-mini">
+                            {{ lang.title_4 }}
+                        </p><span> {{ lang.text_2 }}</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./assets/img/img2.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/img/img3.png">
+                </div>
+                <div class="col-md-6">
+                    <div class="content-img">
+                        <p class="title-mini">
+                            {{ lang.title_5 }}
+                        </p><span>{{ lang.text_3 }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content-img">
+                        <p class="title-mini">
+                            SDK
+                        </p><span>{{ lang.text_4 }}
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="./assets/img/3.png">
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn-dk">
+                    <a href="#dk" style="text-decoration:none; color: #ffffff;">{{ lang.register }}</a>
+                </button>
+            </div>
+            <div class="row mgt-40">
+                <div class="col-md-6">
+                    <p claaa="title-mini" style="font-weight: bold; margin-bottom: 20px; font-size: 24px;"> {{ lang.title_6 }}</p>
+                    <div>{{ lang.p_1 }}</div>
+                    <div><img class="icon" src="./assets/img/ic1.png">{{ lang.p_2 }}</div>
+
+                    <div><img class="icon" src="./assets/img/ic2.png">{{ lang.p_3 }}</div>
+
+                    <div><img class="icon" src="./assets/img/ic3.png">{{ lang.p_4 }}</div>
+
+                    <div><img class="icon" src="./assets/img/ic4.png">{{ lang.p_5 }}</div>
+
+                    <div><img class="icon" src="./assets/img/ic5.png">{{ lang.p_6 }}</div>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fb6MIFfcBDs" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="solution-selection">
+                <p class="title-mini text-center" style="font-size: 24px;" >{{ lang.title_7}}</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./assets/img/Rectangle1.png">
+                        <p>
+                            {{ lang.text_5 }}
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/img/r2.png">
+                        <p>{{ lang.text_6 }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sailent-features">
+                <p class="title-mini text-center" style="font-size: 24px;" >
+                        {{ lang.title_8 }}
+                </p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="w-1" src="./assets/img/thanhtoan 1.png">
+                        <p>{{ lang.text_7 }}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-1" src="./assets/img/2.png">
+                        <p>{{ lang.text_8 }}</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-1" src="./assets/img/1.png">
+                        <p>{{ lang.text_9 }}</p>
+                    </div>
+                </div>
+                <div class="row mgt-40"><button class="btn-dk mga"><a href="#dk"
+                            style="text-decoration:none; color: #ffffff;">{{ lang.register }}</a></button></div>
+            </div>
+            <div class="experience-for-enterprises mgt-40">
+                <p class="title-mini text-center" style="font-size: 24px;">{{ lang.title_9 }}</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="dark-text">
+                            {{ lang.text_10 }}</p>
+                        <p class="normal-text font-bold">CTy TNHH Thành Long</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="dark-text">
+                            {{ lang.text_11}}</p>
+                        <p class="normal-text font-bold">CTy CP Đầu Tư và Tư Vân Redmi</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="dark-text">
+                            {{ lang.text_12 }}</p>
+                        <p class="normal-text font-bold">CTy TNHH Giải Pháp Bình Minh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-main mgt-40">
+        <img src="./assets/img/bn.png">
+        <h2 class="title-banner" >{{ lang.title_10 }}</h2>
+        <p class="content-banner">
+            <label class="title-mini" style="margin-bottom: 15px;">{{ lang.text_13 }}</label>
+            <span>{{ lang.p_7 }}</span>
+        </p>
+        <p class="content-banner-2">
+            <label class="title-mini" style="margin-bottom: 15px;">{{ lang.text_14}}</label>
+            <span>
+                {{ lang.p_8 }}
+            </span>
+        </p>
+        <p class="content-banner-3">
+            <label class="title-mini" style="margin-bottom: 15px;">{{ lang.text_15 }}</label>
+            <span>{{ lang.p_9 }}</span>
+        </p>
+        <p class="content-banner-4">
+            <label class="title-mini" style="margin-bottom: 15px;">{{ lang.text_16 }}</label>
+            <span>{{ lang.p_10}}</span>
+        </p>
+    </div>
+    <div class="message">
+        <label style="font-size: 24px;">{{ lang.title_11 }}</label>
+        <p>
+            {{ lang.text_17 }}
+        </p>
+    </div>
+    <div class="list-icon">
+        <div class="row1">
+            <img src="./assets/img/ico1.png">
+            <img src="./assets/img/ico2.png">
+            <img src="./assets/img/ico3.png">
+            <img src="./assets/img/ico4.png">
+            <img src="./assets/img/ico5.png">
+        </div>
+        <div class="row1">
+            <img src="./assets/img/ico6.png">
+            <img src="./assets/img/ico7.png">
+            <img src="./assets/img/ico8.png">
+            <img src="./assets/img/ico9.png">
+            <img src="./assets/img/ico10.png">
+        </div>
+    </div>
+</main>
