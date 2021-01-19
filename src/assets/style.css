@@ -102,7 +102,7 @@ img {vertical-align: middle;}
     border: 1px solid #000000;
     outline: none;
     width: 228px;
-    height: 60px;
+    /* height: 60px; */
     border-radius: 40px;
     font-weight: bold;
 font-size: 24px;
@@ -144,7 +144,7 @@ cursor: pointer;
   border: 1px solid #000000;
   outline: none;
   width: 228px;
-  height: 60px;
+  /* height: 60px; */
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -197,9 +197,17 @@ cursor: pointer;
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 480px) {
   .prev, .next,.text {font-size: 11px}
-}
+
+  .img-btn button {
+    padding: 8px;
+    font-size: 12px;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+} 
 .title{
     font-style: normal;
 font-weight: bold;
